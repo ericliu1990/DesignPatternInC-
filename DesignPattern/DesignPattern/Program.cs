@@ -12,10 +12,16 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("========== Creational Pattern ================\n");
             #region CreationalPattern
             // BuilderPattern
+            Console.WriteLine("______Builder Pattern_________");
             BuilderPattern.BuilderPatternDemo.BuilderPatternDemoFunc();
-            Console.WriteLine("\n====================================");
+            #endregion
+            Console.WriteLine("\n========= Structural Pattern ==============\n");
+            #region StructuralPattern
+            //AdapterPatter
+            Console.WriteLine("______Adapter Pattern_________");
             AdapterPattern.AdapterPatternDemoClass.AdapterPatternFunc();
             #endregion
             Console.ReadKey();
